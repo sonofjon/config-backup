@@ -3,7 +3,7 @@
 /.cargo/
 /.docsets/
 /.emacs.d/.cache/
-/.emacs.d/devdocs/
+/.emacs.d/devdocs*/
 /.emacs.d/eln-cache/
 /.emacs.d/elpa/
 /.emacs.d/quelpa/
