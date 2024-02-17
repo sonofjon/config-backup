@@ -23,4 +23,4 @@ DEST=/mnt/c/Users/"$WINUSER"/Backup/wsl/
 EXCLUDE_FILE=$HOME/dotfiles/config-backup/wsl/exclude.rsync
 LOG_FILE=$HOME/backup.log
 
-rsync -a --delete $@ --exclude-from=$EXCLUDE_FILE "$SOURCE" "$DEST" --log-file="$LOG_FILE"
+rsync -a --delete $@ --exclude-from=$EXCLUDE_FILE "$SOURCE" "$DEST" --log-file="$LOG_FILE" > /dev/null 2>&1
