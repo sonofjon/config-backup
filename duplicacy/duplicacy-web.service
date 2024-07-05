@@ -1,0 +1,28 @@
+# systemd service for Duplicacy
+#
+# Setup:
+#
+#   sudo mkdir /usr/local/share/duplicacy
+#   sudo cp duplicacy_web_linux_x64_n.n.n /usr/local/share/duplicacy/
+#   sudo chmod 755 /usr/local/share/duplicacy/duplicacy_web_linux_x64_n.n.n
+#   sudo ln -s /usr/local/share/duplicacy/duplicacy_web_linux_x64_n.n.n \
+#              /usr/local/bin/duplicacy-web
+#   sudo cp duplicay-web.service /usr/lib/systemd/user/
+#   sudo systemctl daemon-reload
+#
+# Usage:
+#
+#   systemctl --user enable --now duplicacy-web.service
+#
+
+[Unit]
+Description=Duplicacy Web service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/duplicacy-web
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
