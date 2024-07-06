@@ -7,8 +7,7 @@
 #   sudo chmod 755 /usr/local/share/duplicacy/duplicacy_web_linux_x64_n.n.n
 #   sudo ln -s /usr/local/share/duplicacy/duplicacy_web_linux_x64_n.n.n \
 #              /usr/local/bin/duplicacy-web
-#   sudo cp duplicay-web.service /usr/lib/systemd/user/
-#   sudo systemctl daemon-reload
+#   sudo cp duplicacy-web.service /usr/lib/systemd/user/
 #
 # Usage:
 #
