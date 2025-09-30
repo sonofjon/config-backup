@@ -1,7 +1,11 @@
+/.aws/
+/.azure/
 /.bundle/
 /.cache/
 /.cargo/
+/.docker/
 /.docsets/
+/.dotnet/
 /.emacs.d/.cache/
 /.emacs.d/devdocs*/
 /.emacs.d/eln-cache/
