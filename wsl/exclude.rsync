@@ -4,13 +4,10 @@
 /.cache/
 /.cargo/
 /.docker/
-/.docsets/
 /.dotnet/
 /.emacs.d/.cache/
-/.emacs.d/devdocs*/
 /.emacs.d/eln-cache/
 /.emacs.d/elpa/
-/.emacs.d/quelpa/
 /.emacs.d/tree-sitter/
 /.gem/
 /.gnupg/
@@ -22,7 +19,6 @@
 /.texlive*/
 /.texmf/
 /.vscode-server/
-/data/
 /git/
 /local/
 /snap/
